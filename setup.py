@@ -13,7 +13,7 @@ with open("requirements/prod.txt", "r") as requirements_file:
     requirements = [ requirement.strip() for requirement in requirements_file.readlines() ] 
 
 setup(
-    name="bobcrutchley_bookshelf_api",
+    name="BookshelfAPI",
     version=version,
     author="Bob",
     description="Bookshelf API",
