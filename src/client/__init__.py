@@ -11,5 +11,5 @@ def root():
 @app.route('/home', methods=['GET'])
 def home():
     content = "test"
-    return render_template('index.html', content="test")
+    return render_template('index.html')
 

@@ -3,4 +3,5 @@ from src.client.book import profile
 
 @profile.route("/all")
 def get_all_books():
-    return render_template('books/all.html')
+    books = [{"name": "test"}, {"name": "test2"}]
+    return render_template('books/all.html', books=books)
